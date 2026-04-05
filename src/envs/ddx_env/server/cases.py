@@ -1,0 +1,60 @@
+TASKS = {
+    1: {
+        "difficulty": "easy",
+        "chief_complaint": "Crushing chest pain radiating to left arm, onset 30 minutes ago.",
+        "symptoms": {
+            "diaphoresis": "Patient is diaphoretic (sweating).",
+            "nausea": "Nausea and vomiting present.",
+            "dyspnea": "Mild shortness of breath (dyspnea).",
+            "jaw": "Patient reports jaw tightness.",
+            "history": "Hypertension and 20 pack-year smoking history (blood pressure).",
+        },
+        "tests": {
+            "ecg": "ST elevation in leads II, III, aVF. Reciprocal changes V1-V4 (ekg).",
+            "troponin": "Troponin I: 2.4 ng/mL — markedly elevated (blood test).",
+            "cxr": "Mild cardiomegaly. No pneumothorax.",
+        },
+        "diagnosis": "stemi",
+        "aliases": ["stemi", "myocardial infarction", "mi", "acute mi", "heart attack"],
+    },
+    2: {
+        "difficulty": "medium",
+        "chief_complaint": "Sudden pleuritic chest pain and dyspnea, 2 days post knee surgery.",
+        "symptoms": {
+            "leg swelling": "Right calf swelling and tenderness.",
+            "fever": "Low-grade fever 38.1 degrees C.",
+            "cough": "Dry cough, no sputum.",
+            "tachycardia": "HR 112 bpm (tachycardia, fast heart rate).",
+            "oxygen": "SpO2 91% on room air (oxygen saturation).",
+            "history": "Immobilized 5 days post-op (surgery).",
+        },
+        "tests": {
+            "ecg": "Sinus tachycardia. S1Q3T3 pattern.",
+            "d-dimer": "D-dimer: 4.2 ug/mL — markedly elevated (blood).",
+            "ctpa": "Filling defect right pulmonary artery. Consistent with PE.",
+            "cxr": "Hampton hump — wedge opacity right lower lobe.",
+        },
+        "diagnosis": "pulmonary embolism",
+        "aliases": ["pe", "pulmonary embolism", "vte", "dvt with pe"],
+    },
+    3: {
+        "difficulty": "hard",
+        "chief_complaint": "Progressive fatigue, weight loss, and abdominal pain for 3 months.",
+        "symptoms": {
+            "skin": "Hyperpigmentation of skin creases and buccal mucosa (color).",
+            "bp": "BP 88/54 mmHg. Orthostatic hypotension confirmed (blood pressure).",
+            "salt craving": "Reports intense salt craving.",
+            "gi": "Nausea, vomiting, intermittent diarrhea (digestion, stomach).",
+            "mood": "Depression and irritability.",
+            "history": "No significant past history.",
+        },
+        "tests": {
+            "electrolytes": "Na+ 129 mEq/L hyponatremia. K+ 5.8 mEq/L hyperkalemia (blood test).",
+            "cortisol": "Morning cortisol: 2.1 ug/dL — severely low (blood test).",
+            "acth stim": "ACTH stimulation test: cortisol failed to rise. Primary adrenal insufficiency confirmed.",
+            "acth level": "Plasma ACTH: markedly elevated >500 pg/mL.",
+        },
+        "diagnosis": "addison's disease",
+        "aliases": ["addisons", "addison's disease", "primary adrenal insufficiency", "adrenal insufficiency"],
+    },
+}

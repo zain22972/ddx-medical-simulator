@@ -1,0 +1,20 @@
+name: ddx-env
+version: "0.1.0"
+description: >
+  Differential diagnosis RL environment. Agent interviews a patient,
+  orders tests, and submits a diagnosis.
+tags: [openenv, medical, differential-diagnosis]
+tasks:
+  - id: 1
+    name: classic-stemi
+    difficulty: easy
+  - id: 2
+    name: pe-vs-pneumonia
+    difficulty: medium
+  - id: 3
+    name: addisons-disease
+    difficulty: hard
+observation_space: DDxObservation
+action_space: DDxAction
+reward_range: [-1.0, 1.0]
+max_steps: 10

@@ -1,0 +1,18 @@
+# Environments
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+deploy_log.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
