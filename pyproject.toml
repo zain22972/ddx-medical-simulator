@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ddx-env"
+version = "0.1.0"
+description = "Differential diagnosis RL environment — OpenEnv compliant"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.29.0",
+    "pydantic>=2.0",
+    "requests>=2.31.0",
+    "gradio>=5.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/envs"]

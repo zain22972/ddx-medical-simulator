@@ -38,6 +38,7 @@ d = os.path.dirname(os.path.abspath(__file__))
 files = [
     (os.path.join(d,"Dockerfile"),"Dockerfile"),
     (os.path.join(d,"README.md"),"README.md"),
+    (os.path.join(d,"pyproject.toml"),"pyproject.toml"),
     (os.path.join(d,"openenv.yaml"),"openenv.yaml"),
     (os.path.join(d,"src","envs","ddx_env","__init__.py"),"src/envs/ddx_env/__init__.py"),
     (os.path.join(d,"src","envs","ddx_env","client.py"),"src/envs/ddx_env/client.py"),
